@@ -1,0 +1,1019 @@
+[
+  {
+    "description": "    In order to see how Warehouse Management works with different scenarios",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-warehouse-management;add-a-vendor",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Add a Vendor",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Login Page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in placeholder \"Id\" with \"1\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in placeholder \"password\" with \"admin\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press \"Login\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be on the \"dashboard\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I click on \"Vendor\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should be on the \"vendor\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I fill in placeholder \"name\" with \"Cadbury\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I press \"Add Vendor\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddVendor",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-warehouse-management;add-a-order",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Add a Order",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Login Page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in placeholder \"Id\" with \"1\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in placeholder \"password\" with \"admin\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press \"Login\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be on the \"dashboard\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I click on \"Order\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I should be on the \"order\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I fill in placeholder \"quantity\" with \"2\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I fill in placeholder \"shippingdetails\" with \"US\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I click on 'Chicken' option of 'product' drop down",
+            "match": {
+              "location": "features\\step_definitions\\common.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I press \"Add Order\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddOrder",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-warehouse-management;add-a-employee",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Add a Employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Login Page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in placeholder \"Id\" with \"1\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in placeholder \"password\" with \"admin\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press \"Login\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be on the \"dashboard\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click on \"Employee\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be on the \"employee\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I fill in placeholder \"name\" with \"Jessy\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I fill in placeholder \"role\" with \"Developer\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I press \"Add Employee\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddEmployee",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-warehouse-management;add-a-vehicle",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Add a Vehicle",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Login Page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in placeholder \"Id\" with \"1\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in placeholder \"password\" with \"admin\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press \"Login\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be on the \"dashboard\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I click on \"Vehicles\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I should be on the \"vehicles\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I fill in placeholder \"name\" with \"BMW\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I fill in placeholder \"number\" with \"5432\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I press \"Add Vehicle\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddVehicle",
+            "line": 55
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-warehouse-management;add-a-product",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Add a Product",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Login Page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in placeholder \"Id\" with \"1\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in placeholder \"password\" with \"admin\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press \"Login\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be on the \"dashboard\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click on \"Product\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should be on the \"product\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "I fill in placeholder \"name\" with \"Walter\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I fill in placeholder \"stock\" with \"22\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I fill in placeholder \"price\" with \"5432\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I click on 'Bisleri' option of 'vendor' drop down",
+            "match": {
+              "location": "features\\step_definitions\\common.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I press \"Add Product\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddProduct",
+            "line": 64
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-warehouse-management;ui-logout",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "UI Logout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Login Page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in placeholder \"Id\" with \"1\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in placeholder \"password\" with \"admin\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press \"Login\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "features\\step_definitions\\common.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be on the \"dashboard\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I click on \"Logout\"",
+            "match": {
+              "location": "features\\step_definitions\\common.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "I should be on the \"Login\" page",
+            "match": {
+              "location": "features\\step_definitions\\common.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout",
+            "line": 75
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-warehouse-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test Warehouse Management",
+    "tags": [],
+    "uri": "features\\testwarehouse.feature"
+  }
+]

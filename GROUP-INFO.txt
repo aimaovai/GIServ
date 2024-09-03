@@ -1,0 +1,44 @@
+Group Name: Alaska Geeks
+Team Leader: Veeranjaneyulu
+
+Group member 1: Aima Ovai
+Skills: Programming skills: C/C++, CSS, Python, HTML5, 
+        UI/Graphic Design
+        MYSQL/DMS
+        Technical Writing
+
+Group member 2: Shiva Shashank Kusuma
+Skills: Programming skills: Python, HTML5, CSS3, JavaScript/ES6+, React.js/ Next.js (Beginner), Tailwind CSS (Beginner)
+ 
+Group member 3: Sivaleela Gogineni
+Skills: Programming: C,HTML,CSS,Javascript
+                        Java,SQL
+
+Group member 4: Devi Karri
+Skills: Programming skills: Python, C,HTML,CSS,Javascript,Java,SQL
+
+Group member 5: Sowmith Panthena
+Skills:
+  Programming Skills : C, C++, Java, Python
+                       HTML, CSS
+                       MYSQL
+		       Oracle Hyperion Essbase  
+                       Azure and also able to use google cloud.
+
+Group member 6: Veeranjaneyulu Muppalla
+Skills: 
+        Programming Skills: CSS, HTML, SQL
+	
+Group member 7: SIVA LOKANADHA RAO
+Skills:
+	Programing Skills - JAVA, C LANGUAGE, SAP ABAP(Beginner).
+	Web - HTML, CSS, JAVA SCRIPT.
+	Graphical - Photoshop, PageMaker.
+	Frame Work – Django, Angular.
+
+Group member 8: Varun Virkhare
+Skills: C, C++, Python
+        MYSQL
+       
+
+

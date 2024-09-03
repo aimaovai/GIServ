@@ -1,0 +1,25 @@
+{
+  "name": "warehouse-test",
+  "version": "0.0.1",
+  "description": "End-to-end testing with Cucumber.js and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --no-strict -f json:output/report/cucumber_report.json"
+  },
+  "keywords": [
+    "cucumber",
+    "puppeteer"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chromedriver": "^91.0.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "pactum": "^3.0.17",
+    "puppeteer": "^2.1.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1"
+  }
+}

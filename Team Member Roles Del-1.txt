@@ -1,0 +1,8 @@
+Team Member Roles
+
+
+SQL/ DBMS: Veeranjaneyulu Muppalla, Aima Ovai, Sowmith Panthena
+Front-end Development: Shiva Shashank Kusuma, Siva Ventrapragada, Devi Karri, Sivaleela Gogineni
+Back-end Development: Aima Ovai, Sowmith Panthena, Varun Virkhare
+Servers/ Deployment: Shiva Shashank Kusuma, Siva Ventrapragada
+Software Testing: Veeranjaneyulu Muppalla (Principal Tester)

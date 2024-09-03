@@ -1,0 +1,8 @@
+NPM Commands:
+
+//For installing node modules
+npm i
+//For running the test cases
+npm run test
+//Test report
+node index.js
