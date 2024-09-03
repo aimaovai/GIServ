@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIServ Dashboard Component Dashboard renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="h-full bg-gradient-to-b from-red-500 to-purple-700 p-8"
+      >
+        <div
+          class="flex justify-around"
+        >
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              $
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Sales
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Orders
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Vendors
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Employees
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Vehicles
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex gap-2 justify-around mt-4"
+        >
+          <p>
+            Unshipped Orders
+          </p>
+          <p>
+            High Value Orders
+          </p>
+        </div>
+        <div
+          class="flex gap-2"
+        >
+          <table
+            class="w-full text-center my-6 rounded-md bg-slate-50 "
+          >
+            <thead>
+              <tr>
+                <th>
+                  Id
+                </th>
+                <th>
+                  Item
+                </th>
+                <th>
+                  Quantity
+                </th>
+                <th>
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+          <table
+            class="w-full text-center my-6 rounded-md bg-slate-50 "
+          >
+            <thead>
+              <tr>
+                <th>
+                  Id
+                </th>
+                <th>
+                  Item
+                </th>
+                <th>
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="h-full bg-gradient-to-b from-red-500 to-purple-700 p-8"
+      >
+        <div
+          class="flex justify-around"
+        >
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              $
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Sales
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Orders
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Vendors
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Employees
+            </p>
+          </div>
+          <div
+            class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+          >
+            <p
+              class="text-4xl"
+            >
+              0
+            </p>
+            <p
+              class="text-sm"
+            >
+              Vehicles
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex gap-2 justify-around mt-4"
+        >
+          <p>
+            Unshipped Orders
+          </p>
+          <p>
+            High Value Orders
+          </p>
+        </div>
+        <div
+          class="flex gap-2"
+        >
+          <table
+            class="w-full text-center my-6 rounded-md bg-slate-50 "
+          >
+            <thead>
+              <tr>
+                <th>
+                  Id
+                </th>
+                <th>
+                  Item
+                </th>
+                <th>
+                  Quantity
+                </th>
+                <th>
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+          <table
+            class="w-full text-center my-6 rounded-md bg-slate-50 "
+          >
+            <thead>
+              <tr>
+                <th>
+                  Id
+                </th>
+                <th>
+                  Item
+                </th>
+                <th>
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="h-full bg-gradient-to-b from-red-500 to-purple-700 p-8"
+    >
+      <div
+        class="flex justify-around"
+      >
+        <div
+          class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+        >
+          <p
+            class="text-4xl"
+          >
+            $
+            0
+          </p>
+          <p
+            class="text-sm"
+          >
+            Sales
+          </p>
+        </div>
+        <div
+          class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+        >
+          <p
+            class="text-4xl"
+          >
+            0
+          </p>
+          <p
+            class="text-sm"
+          >
+            Orders
+          </p>
+        </div>
+        <div
+          class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+        >
+          <p
+            class="text-4xl"
+          >
+            0
+          </p>
+          <p
+            class="text-sm"
+          >
+            Vendors
+          </p>
+        </div>
+        <div
+          class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+        >
+          <p
+            class="text-4xl"
+          >
+            0
+          </p>
+          <p
+            class="text-sm"
+          >
+            Employees
+          </p>
+        </div>
+        <div
+          class="h-20 w-36 bg-green-50 rounded-lg text-green-500 text-center p-2"
+        >
+          <p
+            class="text-4xl"
+          >
+            0
+          </p>
+          <p
+            class="text-sm"
+          >
+            Vehicles
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex gap-2 justify-around mt-4"
+      >
+        <p>
+          Unshipped Orders
+        </p>
+        <p>
+          High Value Orders
+        </p>
+      </div>
+      <div
+        class="flex gap-2"
+      >
+        <table
+          class="w-full text-center my-6 rounded-md bg-slate-50 "
+        >
+          <thead>
+            <tr>
+              <th>
+                Id
+              </th>
+              <th>
+                Item
+              </th>
+              <th>
+                Quantity
+              </th>
+              <th>
+                Value
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+        <table
+          class="w-full text-center my-6 rounded-md bg-slate-50 "
+        >
+          <thead>
+            <tr>
+              <th>
+                Id
+              </th>
+              <th>
+                Item
+              </th>
+              <th>
+                Value
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
