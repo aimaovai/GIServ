@@ -14,6 +14,7 @@
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Java
+- **Testing:** Gherkin
 - **Database:** MySQL
 - **Tools:** Adobe XD for UI design, Git for version control
 
